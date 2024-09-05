@@ -1,0 +1,250 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Navbar Start hare */
+.navbar {
+  background: #1a187a;
+}
+.logo {
+  padding-left: 40px;
+  padding-right: 20px;
+  width: 220px;
+}
+.content {
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.content2 {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.3;
+  padding: 10px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.content3 {
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.3;
+  padding: 10px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.fas.fa-shopping-cart {
+  padding-left: 10px;
+  width: 50px;
+  height: 32px;
+  color: #fff;
+}
+.fas {
+  padding-left: 10px;
+  width: 50px;
+  height: 32px;
+  color: #fff;
+}
+.d-flex {
+  padding-right: 20px;
+}
+.navbar::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+/* Navbar end hare */
+/* banner section 1 carusel Start hare */
+.carousel-item {
+  background-image: url(./resources/bck.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 95vh;
+  flex-shrink: 0;
+  
+}
+
+.contn {
+  padding-left: 120px;
+  margin: auto;
+  justify-content: center;
+  width: fit-content; /* Or set a specific width like width: 50%; */
+}
+.pre {
+  color: #1e046a;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  opacity: 0.4;
+}
+.mid {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -0.96px;
+}
+.last {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.shop-btn{
+margin: auto;
+padding: 0px 40px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 6px;
+border: 1px solid var(--Main-White, #FFF);
+background: #171495;
+}
+.btnt{
+color: var(--Main-White, #FFF);
+text-align: center;
+font-family: Montserrat;
+padding-top: 12px;
+font-size: 16px;
+font-style: normal;
+font-weight: 1000;
+}
+.img-contn{
+  padding: 0px;
+}
+.img{
+  padding-top: 100px;
+  padding-right: 80px;
+  padding-bottom: 0px;
+  width: 406px;
+height: 998px;
+}
+.img2{
+  padding-top: 100px;
+  padding-right: 80px;
+  padding-bottom: 10px;
+  width: 400px;
+ height: 500px;
+}
+.img3{
+  padding-top: 200px;
+  padding-right: 80px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  width: 450px;
+height: 400px;
+}
+
+.carusal::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+/* banner section 1 carusel End hare */
+
+/* banner section 2  Start hare */
+
+
+.first-container{
+  height: 300px;
+  align-items: center;
+  align-self: stretch;
+  background: var(--Main-White, #FFF);
+}
+
+.second-container{
+  height: 300px;
+  align-items: center;
+  align-self: stretch;
+  background: #ADC2D7;
+}
+
+.right_container{
+width: 720px;
+height: 600px;
+padding: 44px 264px 44px 56px;
+align-items: center;
+gap: 1px;
+flex-shrink: 0;
+background: #EDEDED;
+}
+.macbook-img{
+  width: 300px;
+  height: 200px;
+}
+.airpod-img{
+  width: 250px;
+  height: 250px;
+}
+.ipad-img{
+  width: 250px;
+  height: 250px;
+}
+.container::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+/* banner section 2  End hare */
+
+/* Category */
+.container-xxl{
+  container-type: normal;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  padding-left: 50px;
+  background-color:antiquewhite;
+}
+.title{
+  text-align: center;
+  margin: 0 auto ;
+  position: relative;
+  line-height: 30px;
+  color: #555;
+}
+.container-item {
+  display: flex; /* You need to set display to flex */
+  justify-content: center; /* Centers the container horizontally */
+  align-items: center; /* Centers the container vertically */
+  margin: auto;
+  height: 50vh; /* Ensure that the container has a height to center vertically */
+}
+.img-itm{
+  margin: 10px;
+
+}
+.card{
+  width: 140px;
+  height: 100px;
+  border-radius: 6px;
+}
+.card-img-top{
+  padding: 25px;
+}
+.card-text{
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}

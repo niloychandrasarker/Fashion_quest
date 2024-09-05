@@ -1,0 +1,131 @@
+@media (max-width: 768px) {
+  /* Navbar Start hare */
+  .navbar {
+    background: #1a187a;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .logo {
+    width: 150px;
+    padding-left: 10px;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("path_to_your_hamburger_icon"); /* Use your custom hamburger icon */
+    width: 30px;
+    height: 30px;
+    color: #fff;
+  }
+
+  .nav-link {
+    color: #fff;
+    padding: 10px;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .fas.fa-shopping-cart,
+  .fas.fa-user {
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .d-flex {
+    padding-right: 10px;
+  }
+  /* Navbar end hare */
+
+  /* banner section 1 carusel Start hare */
+  .carousel-item {
+    flex-direction: column;
+    background-image: url(./resources/bck.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 95vh;
+    flex-shrink: 0;
+  }
+
+  .contn {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    /* height: 100%; Make sure it takes up full height of its container */
+    padding: 40px; /* Ensure no padding that disrupts centering */
+  }
+
+  .pre {
+    font-size: 10px;
+    line-height: normal;
+  }
+
+  .mid {
+    font-size: 30px;
+    line-height: normal;
+  }
+
+  .last {
+    font-size: 10px;
+    line-height: normal;
+  }
+
+  .shop-btn {
+    padding: 0px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid var(--Main-White, #fff);
+    background: #171495;
+  }
+
+  .btnt {
+    color: var(--Main-White, #fff);
+    text-align: center;
+    font-family: Montserrat;
+    padding-top: 12px;
+    font-size: 16px;
+    font-weight: 1000;
+  }
+
+  .img-contn {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0%;
+  }
+  .img {
+    width: 300px;
+    height: 600px;
+  }
+
+  .img2 {
+    width: 500px;
+    height: 400px;
+    /* padding-right: 40px; */
+  }
+
+  .img3 {
+    width: 400px;
+    height: 500px;
+    margin: 30px;
+  }
+  .card{
+    display: flex;
+
+  }
+
+  /* banner section 1 carusel End hare */
+
+  /* banner section 2 Start  hare */
+   
+  /* banner section 2 End hare */
+}
